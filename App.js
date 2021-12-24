@@ -7,16 +7,10 @@
  */
 import React from 'react';
 import DrawerTab from './project/drawerComp';
-
-
-
+import 'react-native-gesture-handler';
 
 const App = () => {
-    return (
-    <DrawerTab />
-  );
+  return <DrawerTab />;
 };
-
-
 
 export default App;
